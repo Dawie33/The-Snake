@@ -1,0 +1,44 @@
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#arena {
+    background-color: lightsteelblue;
+    height: 700px;
+    width: 700px;
+    position: relative;
+}
+
+#snake {
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    z-index: 99;
+}
+
+.pixel {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-color: yellow;
+}
+.pixel.super {
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.wall {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-color: black;
+}
